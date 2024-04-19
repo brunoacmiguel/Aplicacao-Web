@@ -1,0 +1,94 @@
+body{
+    background-color:  rgb(19, 19, 19);
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    margin: 0px;
+    padding: 25px;
+}
+
+header h1{
+    margin: 0px;
+    text-align: center;
+}
+nav{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    margin-bottom: 30px;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+   padding-right: 10px;
+}
+
+nav a:hover{
+    background-color: white;
+    transition: 1s;
+    color: gray;
+}
+
+
+
+
+section{
+    margin: auto auto;
+    width: 300px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 10px;
+    min-height: 250px;
+}
+
+legend{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+input{
+    color: white;
+    width: 250px;
+    background-color: black;
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+main p{
+    margin: 0px 0px 20px 0px;
+    visibility: hidden;
+    font-size: 12px;
+}
+
+p#vc{
+    visibility: visible;
+    margin: 0px 0px 5px 0px;
+}
+textarea{
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+main button{
+    background-color: black;
+    color: lightslategray;
+    border: none;
+}
+
+main button:hover{
+    border: white 1px solid;
+}
+
+button a{
+    text-decoration: none;
+    
+}

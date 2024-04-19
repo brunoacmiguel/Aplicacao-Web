@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let quant = 0; //Declara a variável de verificação
+
+        let n2 = Math.floor(Math.random(0, 10) * 10); //Declara o número aleatório
+        for(let i = 0; i < 3; i++){
+
+            let n1 = Number(prompt("Número: ")); //Declara o chute
+
+            if(n1 == n2){
+                alert("correto");
+                quant ++;//Adiciona mais 1 ao quant
+                break
+
+            }
+            else if(n1 > n2){
+                alert("Digite um número menor");
+            }
+
+            else if(n1 < n2){
+                alert("Digite um número maior");
+            }
+        }
+
+        if(quant != 1){
+            alert("Você perdeu");
+            alert(n2);
+            quant = 0;
+        }
+
+        
+    </script>
+</body>
+</html>
