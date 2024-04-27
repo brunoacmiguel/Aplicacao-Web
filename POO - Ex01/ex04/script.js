@@ -46,7 +46,7 @@ botaousd.onclick = function(){
         let num1 = real();
         convert = num1 * taxaUSD / taxaBRL;
         console.log(convert.toFixed(2));
-        window.document.getElementById("result").innerHTML = num1 + " reais em dólar ficaria: " + convert.toFixed(2) + " dólares"
+        window.document.getElementById("result").innerHTML = num1 + " dolares em reais ficaria: " + convert.toFixed(2) + " reais"
     }
     if(estadomoedal === "euro"){
         let num1 = euro();
@@ -74,7 +74,7 @@ botaogbp.onclick= function(){
         let num1 = real();
         convert = num1 * taxaGBP / taxaBRL;
         console.log(convert.toFixed(2));
-        window.document.getElementById("result").innerHTML = num1 = " reais em líbra ficaria: " + convert.toFixed(2)+ " líbras";
+        window.document.getElementById("result").innerHTML = num1 + " libras em real ficaria: " + convert.toFixed(2)+ " reais";
     }
     if(estadomoedal === "euro"){
         let num1 = euro();
@@ -102,19 +102,19 @@ botaoeur.onclick = function(){
         let num1 = real();
         convert = num1 * taxaEUR / taxaBRL;
         console.log(convert.toFixed(2));
-        window.document.getElementById("result").innerHTML = num1 + " reais em euro ficaria: " + convert.toFixed(2) + " euros";
+        window.document.getElementById("result").innerHTML = num1 + " euros em real ficaria: " + convert.toFixed(2) + " euros";
     }
     if(estadomoedal === "euro"){
         let num1 = euro();
         convert = num1 *  taxaEUR/ taxaEUR;
         console.log(convert.toFixed(2));
-        window.document.getElementById("result").innerHTML = num1 + " euros em euro ficaria: " + convert.toFixed(2) + " euros";
+        window.document.getElementById("result").innerHTML = num1 + " reais em euro ficaria: " + convert.toFixed(2) + " reais";
     }
     if(estadomoedal === "libra"){
         let num1 = libra();
         convert = num1 * taxaEUR / taxaGBP;
         console.log(convert.toFixed(2));
-        window.document.getElementById("result").innerHTML = num1 = " libras em euros ficaria: " + convert.toFixed(2) + " euros";
+        window.document.getElementById("result").innerHTML = num1 + " libras em euros ficaria: " + convert.toFixed(2) + " euros";
     }
 
     if(estadomoedal === "dolar"){
@@ -136,19 +136,19 @@ botaobrl.onclick = function(){
         let num1 = euro();
         convert = num1 *  taxaBRL/ taxaEUR;
         alert(convert.toFixed(2));
-        window.document.getElementById("result").innerHTML = num1 + " euros em real ficaria: " + convert .toFixed(2)+ " reais";
+        window.document.getElementById("result").innerHTML = num1 + " reais em euro ficaria: " + convert .toFixed(2)+ " euros";
     }
     if(estadomoedal === "libra"){
         let num1 = libra();
         convert = num1 * taxaBRL / taxaGBP;
         console.log(convert.toFixed(2));
-        window.document.getElementById("result").innerHTML = num1 + " líbras em real ficaria: " + convert.toFixed(2) + " reais";
+        window.document.getElementById("result").innerHTML = num1 + " reais em libras ficaria: " + convert.toFixed(2) + " libras";
     }
 
     if(estadomoedal === "dolar"){
         let num1 = dolar();
-        convert = num1 * taxaBRL / taxaUSD;
+        convert = num1 / taxaUSD;
         console.log(convert.toFixed(2));
-        window.document.getElementById("result").innerHTML = num1 + " dólares em real ficaria: " + convert.toFixed(2) + " reais";
+        window.document.getElementById("result").innerHTML = num1 + " reais em  dólares: " + convert.toFixed(2) + " dolares";
     }
 }
