@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Conversor de moedas</h1>
+    </header>
+    <main>
+        <section id="sec1">
+            <h2>Insira a moeda que você quer converter</h2>
+            <input type="number" id="n1">
+            <button onclick="real()">BRL</button>
+            <button onclick="libra()">GBP</button>
+            <button onclick="dolar()">USD</button>
+            <button onclick="euro()">EUR</button>
+            <p id="moedaatual"></p>
+        </section>
+        <section id="sec2">
+            <h2>Clique na moeda abaixo para converter</h2>
+            <button id="usd">USD</button>
+            <button id="gbp">GBP</button>
+            <button id="brl">BRL</button>
+            <button id="eur">EUR</button>
+            <p id="result"></p>
+        </section>
+    </main>
+    <footer>
+        <p>By Bruno Araújo Cunha Miguel</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
