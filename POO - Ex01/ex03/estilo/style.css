@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: chocolate;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section{
+    width: 800px;
+    background-color: rgb(255, 181, 128);
+}
