@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(255, 106, 0);
+}
+
 header{
     background-color: chocolate;
     color: white;
@@ -11,7 +15,45 @@ header{
     text-align: center;
 }
 
-section{
+main{
     width: 800px;
+    height: 550px;
     background-color: rgb(255, 181, 128);
+    margin: auto;
+}
+
+section input{
+    display: block;
+    margin: auto;
+    padding: 5px;
+}
+
+section button{
+    display: block;
+    margin :auto;
+    padding: 5px;
+    color: white;
+    background-color: rgb(214, 102, 11);
+    border: black 1px solid;
+}
+
+section button:hover{
+    background-color: white;
+    color: black;
+}
+
+h3{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 26px;
+}
+
+footer{
+    background-color: chocolate;
+    padding: 6px;
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-size: 23px;
 }

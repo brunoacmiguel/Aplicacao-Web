@@ -1,3 +1,4 @@
+
 function dadosF(){
     let fahren = window.document.getElementById("temp1").value;
     parseInt(fahren);

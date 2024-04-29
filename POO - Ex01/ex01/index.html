@@ -4,14 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
-    <h1>IMC </h1>
-
-    <input type="text" id="altura" placeholder="Digite sua altura"> <br>
-    <input type="text" id="peso" placeholder="Digite seu peso"><br>
-    <button onclick="dados()">Calcular imc</button>
-    <h3 id="mostrar"></h3>
+    <header>
+        <h1>IMC </h1>
+    </header>
+    <main>
+        <p id="space"></p>
+        <section id="sec1">
+            <h1>Digite seu peso e sua altura</h1>
+            <input type="text" id="altura" placeholder="Digite sua altura">
+            <input type="text" id="peso" placeholder="Digite seu peso"><br>
+            <button onclick="dados()">Calcular imc</button>
+        </section>
+        <p id="space2"></p>
+        <section id="sec2">
+            <h1>Resultado</h1>
+            <h3 id="mostrar"></h3>
+        </section>
+    </main>
+    <footer>
+        <p>By Bruno Araújo Cunha Miguel</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
